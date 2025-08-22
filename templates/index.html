@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS AI Assistant</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>JARVIS AI ASSISTANT</h1>
+            <p>At your service. I'm ready to assist you with data analysis and more.</p>
+        </div>
+        
+        <div class="panel visualization-panel">
+            <h2><i class="fas fa-chart-line"></i> Data Visualization</h2>
+            <div class="chart-container">
+                <canvas id="dataChart"></canvas>
+            </div>
+            <div class="data-table-container">
+                <table class="data-table" id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Column</th>
+                            <th>Type</th>
+                            <th>Mean</th>
+                            <th>Min</th>
+                            <th>Max</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- Data will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="stats">
+                <div class="stat-box">
+                    <h3>Rows Processed</h3>
+                    <p id="rowCount">0</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Columns</h3>
+                    <p id="colCount">0</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Missing Values</h3>
+                    <p id="missingCount">0</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Data Types</h3>
+                    <p id="typesCount">0</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="panel">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <i class="fas fa-robot"></i>
+                    <h2>JARVIS Conversation Interface</h2>
+                    <button id="retrainBtn" class="retrain-btn">Retrain Model</button>
+                </div>
+                
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot-message">
+                        Hello! I am Jarvis, your AI assistant. How can I help you today?
+                    </div>
+                </div>
+                
+                <div class="file-upload">
+                    <input type="file" id="csvFile" accept=".csv">
+                    <button id="uploadBtn">Upload CSV</button>
+                    <button id="loadSampleBtn">Load Sample</button>
+                </div>
+                
+                <div class="suggestion-chips">
+                    <div class="chip" data-query="Show me the age distribution">Age Distribution</div>
+                    <div class="chip" data-query="What's the average salary">Average Salary</div>
+                    <div class="chip" data-query="Find correlations">Find Correlations</div>
+                    <div class="chip" data-query="Data summary">Data Summary</div>
+                </div>
+                
+                <div class="chat-input">
+                    <input type="text" id="userInput" placeholder="Ask me anything...">
+                    <button id="sendButton">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <button id="micButton" class="mic-btn">
+    <i class="fas fa-microphone"></i>
+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize chart
+        const ctx = document.getElementById('dataChart').getContext('2d');
+        let dataChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['No data yet'],
+                datasets: [{
+                    label: 'Values',
+                    data: [0],
+                    backgroundColor: 'rgba(77, 238, 234, 0.7)',
+                    borderColor: 'rgba(77, 238, 234, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                animation: {
+                    duration: 2000,
+                    easing: 'easeOutQuart'
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        },
+                        ticks: {
+                            color: 'white'
+                        }
+                    },
+                    x: {
+                        grid: {
+                            display: false
+                        },
+                        ticks: {
+                            color: 'white'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        labels: {
+                            color: 'white'
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Data Visualization',
+                        color: 'white'
+                    }
+                }
+            }
+        });
+
+        
+        // Add to your existing JavaScript
+const micButton = document.getElementById('micButton');
+let recognition = null;
+
+if ('webkitSpeechRecognition' in window) {
+    recognition = new webkitSpeechRecognition();
+    recognition.continuous = false;
+    recognition.interimResults = false;
+    recognition.lang = 'en-US';
+
+    recognition.onresult = function(event) {
+        const transcript = event.results[0][0].transcript;
+        userInput.value = transcript;
+        sendButton.click();
+    };
+
+    recognition.onerror = function(event) {
+        console.error('Speech recognition error', event.error);
+        addMessage("Sorry, I couldn't understand that. Please try again.", false);
+    };
+
+    recognition.onend = function() {
+        micButton.classList.remove('listening');
+    };
+}
+
+micButton.addEventListener('click', () => {
+    if (recognition) {
+        if (micButton.classList.contains('listening')) {
+            recognition.stop();
+        } else {
+            recognition.start();
+            micButton.classList.add('listening');
+            addMessage("I'm listening...", false);
+        }
+    } else {
+        addMessage("Speech recognition is not supported in your browser.", false);
+    }
+});
+
+        // Chat functionality
+        const chatMessages = document.getElementById('chatMessages');
+        const userInput = document.getElementById('userInput');
+        const sendButton = document.getElementById('sendButton');
+        const chips = document.querySelectorAll('.chip');
+        const csvFileInput = document.getElementById('csvFile');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const loadSampleBtn = document.getElementById('loadSampleBtn');
+        const retrainBtn = document.getElementById('retrainBtn');
+
+        let loadedData = null;
+
+        // Function to add message to chat
+        function addMessage(message, isUser) {
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message');
+            messageDiv.classList.add(isUser ? 'user-message' : 'bot-message');
+            messageDiv.textContent = message;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Function to show typing indicator
+        function showTyping() {
+            const typingDiv = document.createElement('div');
+            typingDiv.classList.add('typing-indicator');
+            typingDiv.innerHTML = `
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+            `;
+            chatMessages.appendChild(typingDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+            return typingDiv;
+        }
+
+        // Function to update stats display
+        function updateStats(data) {
+            document.getElementById('rowCount').textContent = data.rows || 0;
+            document.getElementById('colCount').textContent = data.columns || 0;
+            document.getElementById('missingCount').textContent = 0;
+            document.getElementById('typesCount').textContent = 3;
+            
+            if (data.column_names) {
+                updateDataTable(data.column_names);
+            }
+        }
+
+        // Function to update data table
+        function updateDataTable(columns) {
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML = '';
+            
+            for (const col of columns) {
+                const row = document.createElement('tr');
+                
+                const nameCell = document.createElement('td');
+                nameCell.textContent = col;
+                row.appendChild(nameCell);
+                
+                const typeCell = document.createElement('td');
+                typeCell.textContent = 'numeric';
+                row.appendChild(typeCell);
+                
+                const meanCell = document.createElement('td');
+                meanCell.textContent = (Math.random() * 100).toFixed(2);
+                row.appendChild(meanCell);
+                
+                const minCell = document.createElement('td');
+                minCell.textContent = (Math.random() * 50).toFixed(2);
+                row.appendChild(minCell);
+                
+                const maxCell = document.createElement('td');
+                maxCell.textContent = (Math.random() * 150 + 50).toFixed(2);
+                row.appendChild(maxCell);
+                
+                tableBody.appendChild(row);
+            }
+        }
+        
+        // Function to update chart based on data
+        function updateChart(labels, data, label = 'Values') {
+            dataChart.data.labels = labels;
+            dataChart.data.datasets = [{
+                label: label,
+                data: data,
+                backgroundColor: 'rgba(77, 238, 234, 0.7)',
+                borderColor: 'rgba(77, 238, 234, 1)',
+                borderWidth: 1
+            }];
+            dataChart.update();
+        }
+        
+        // Function to send message to chatbot
+       async function sendMessage(message) {
+    const typingIndicator = showTyping();
+    
+    try {
+        // Use the enhanced endpoint for both questions and paragraphs
+        const response = await fetch('/enhanced_chat', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ message: message })
+        });
+        
+        const data = await response.json();
+        
+        // Remove typing indicator
+        chatMessages.removeChild(typingIndicator);
+        
+        if (data.error) {
+            addMessage(data.error, false);
+            return;
+        }
+        
+        // Display the response
+        addMessage(data.response, false);
+        
+    } catch (error) {
+        chatMessages.removeChild(typingIndicator);
+        addMessage("Error processing your request: " + error.message, false);
+        console.error(error);
+    }
+}
+
+        // Function to handle user queries
+        async function handleUserQuery(query) {
+            if (!loadedData) {
+                addMessage("I don't have any data to analyze yet. Please load a dataset first.", false);
+                return;
+            }
+            
+            const typingIndicator = showTyping();
+            
+            try {
+                const response = await fetch('/analyze', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ query: query })
+                });
+                
+                const data = await response.json();
+                
+                // Remove typing indicator
+                chatMessages.removeChild(typingIndicator);
+                
+                if (data.error) {
+                    addMessage(data.error, false);
+                    return;
+                }
+                
+                // Display the response
+                addMessage(data.message, false);
+                
+                // Update chart if we have chart data
+                if (data.chart_data) {
+                    updateChart(data.chart_data.labels, data.chart_data.data, data.chart_data.title);
+                }
+                
+            } catch (error) {
+                chatMessages.removeChild(typingIndicator);
+                addMessage("Error processing your request: " + error.message, false);
+                console.error(error);
+            }
+        }
+
+        // Event listeners
+        sendButton.addEventListener('click', () => {
+            const message = userInput.value.trim();
+            if (message) {
+                addMessage(message, true);
+                userInput.value = '';
+                sendMessage(message);
+            }
+        });
+
+        userInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                sendButton.click();
+            }
+        });
+
+        chips.forEach(chip => {
+            chip.addEventListener('click', () => {
+                const query = chip.getAttribute('data-query');
+                addMessage(query, true);
+                handleUserQuery(query);
+            });
+        });
+
+        uploadBtn.addEventListener('click', async () => {
+            const file = csvFileInput.files[0];
+            if (file) {
+                addMessage(`Uploading file: ${file.name}`, true);
+                
+                const formData = new FormData();
+                formData.append('file', file);
+                
+                try {
+                    const response = await fetch('/upload', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    
+                    const data = await response.json();
+                    
+                    if (data.error) {
+                        addMessage(data.error, false);
+                        return;
+                    }
+                    
+                    loadedData = data;
+                    updateStats(data);
+                    addMessage(data.message, false);
+                    
+                } catch (error) {
+                    addMessage("Error uploading file: " + error.message, false);
+                    console.error(error);
+                }
+            } else {
+                addMessage("Please select a CSV file first.", false);
+            }
+        });
+
+        retrainBtn.addEventListener('click', async () => {
+            addMessage("Retraining the AI model...", true);
+            
+            try {
+                const response = await fetch('/retrain', {
+                    method: 'POST'
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    addMessage(data.message, false);
+                } else {
+                    addMessage("Error: " + data.message, false);
+                }
+                
+            } catch (error) {
+                addMessage("Error retraining model: " + error.message, false);
+                console.error(error);
+            }
+        });
+
+        // Initialize with a greeting
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                sendMessage('hello');
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

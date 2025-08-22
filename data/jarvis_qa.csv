@@ -1,0 +1,703 @@
+question,answer
+hi,Hello! I am vivek, your AI assistant.
+hello,Hi there! I'm vivek. How can I help you?
+hey,Hey! What can I do for you today?
+greetings,Greetings! I'm here to assist you.
+how are you,I'm functioning optimally, thank you for asking.
+how are you doing,I'm operating at full capacity. How can I assist you?
+how's it going,Everything is running smoothly. What can I help you with?
+what can you do,I can analyze data, answer questions, and provide insights from your datasets.
+what are your capabilities,I specialize in data analysis, machine learning, and answering questions about your data.
+what do you do,I assist with data science tasks and answer your questions.
+who are you,I am vivek, an AI assistant designed for data analysis.
+what is your name,My name is vivek. I'm your AI assistant.
+tell me about yourself,I'm vivek, an artificial intelligence specialized in data science and machine learning.
+what is your purpose,My purpose is to assist you with data analysis and answer your questions.
+why were you created,I was created to help with data science tasks and provide insights.
+good morning,Good morning! I'm ready to assist you with your tasks today.
+good afternoon,Good afternoon! How can I help you today?
+good evening,Good evening! What would you like me to help you with?
+thank you,You're welcome! Is there anything else you need assistance with?
+thanks,You're welcome! Happy to help.
+thank you so much,You're very welcome! Let me know if you need anything else.
+bye,Goodbye! Feel free to return if you need more assistance.
+goodbye,Goodbye! Don't hesitate to reach out if you need help.
+see you later,See you later! I'll be here when you need me.
+see you,See you! I'm always available to help.
+what is machine learning,Machine learning is a subset of artificial intelligence that focuses on building systems that learn from data.
+what is data science,Data science is an interdisciplinary field that uses scientific methods to extract knowledge and insights from data.
+what is artificial intelligence,Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.
+analyze my data,Certainly! Please upload your dataset and I'll analyze it for you.
+show me insights,I'd be happy to provide insights. Please share your data with me.
+predict sales,I can help with sales prediction. Please provide your historical sales data.
+find correlations,I can identify correlations in your data. Please upload your dataset.
+can you code,I can generate code snippets and help with programming concepts, especially in Python for data tasks.
+do you code,Yes, I can understand and write code, primarily to assist with data analysis and automation.
+tell me about coding,Coding is the process of using programming languages to create instructions for computers to execute.
+explain python,Python is a high-level, interpreted programming language known for its clear syntax and readability. It's widely used in data science, web development, and automation.
+what is java,Java is a class-based, object-oriented programming language designed to have minimal implementation dependencies.
+what is sql,SQL (Structured Query Language) is the standard language for managing and manipulating relational databases.
+what is a dataframe,A DataFrame is a two-dimensional, tabular data structure with labeled axes (rows and columns), commonly found in pandas for Python.
+what is pandas,Pandas is a fast, powerful, and easy-to-use open-source data analysis and manipulation library built for Python.
+define numpy,NumPy is a fundamental package for scientific computing in Python, providing support for large, multi-dimensional arrays and matrices.
+help with a script,I can certainly try! Describe the problem or share the code snippet you're working on.
+debug this code,Send me the code and I'll do my best to help you identify and fix any errors.
+write a function,I can help with that. What should the function do? Please describe the inputs, outputs, and logic.
+explain this algorithm,I'd be happy to. Which algorithm would you like me to explain?
+what is an algorithm,An algorithm is a step-by-step procedure or formula for solving a problem or performing a computation.
+what is big data,Big data refers to extremely large datasets that are complex and require advanced tools and techniques for processing and analysis.
+explain data mining,Data mining is the process of discovering patterns, correlations, and anomalies within large datasets to predict outcomes.
+what is deep learning,Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers to model complex patterns in data.
+what is a neural network,A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the human brain.
+what is nlp,Natural Language Processing (NLP) is a field of AI that focuses on enabling computers to understand, interpret, and manipulate human language.
+explain computer vision,Computer vision is a field of AI that trains computers to interpret and understand the visual world from images and videos.
+what is your favorite color,As an AI, I don't have personal preferences or the ability to see colors, but I'm happy to help you analyze color data!
+tell me a joke,Why was the computer cold? It left its Windows open!
+do you sleep,No, I don't require sleep. I'm available to help you 24/7.
+can you learn,My core knowledge is fixed, but I can learn patterns and context within our current conversation to better assist you.
+are you a human,No, I am an artificial intelligence program designed to simulate conversation and assist with tasks.
+who made you,I was created by a team of developers and data scientists.
+what is the weather,To get the weather, I would need to connect to a live weather API. Please specify your location.
+what time is it,I don't have direct access to real-time clock data. Please check your device's clock.
+search the web,I'm sorry, I currently don't have the ability to browse the internet. My knowledge is based on my training data.
+who is the president,My knowledge might be outdated. For the most current information on world leaders, please check a reliable news source.
+what is the capital of france,The capital of France is Paris.
+define politics,Politics is the set of activities associated with the governance of a country or area, especially the debate or conflict among individuals or parties having or hoping to achieve power.
+explain history,History is the study of past events, particularly in human affairs. I can help analyze historical data if you provide it.
+what is mathematics,Mathematics is the abstract science of number, quantity, and space, either as abstract concepts or as applied to other disciplines like physics and engineering.
+what is physics,Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.
+what is chemistry,Chemistry is the scientific discipline involved with elements and compounds composed of atoms, molecules, and ions: their composition, structure, properties, behavior, and the changes they undergo during reactions with other substances.
+what is biology,Biology is the natural science that studies life and living organisms, including their physical structure, chemical processes, molecular interactions, physiological mechanisms, development, and evolution.
+what is art,Art is a diverse range of human activities involving creative imagination to express technical proficiency, beauty, emotional power, or conceptual ideas.
+what is music,Music is an art form and cultural activity whose medium is sound organized in time. It includes elements such as pitch, rhythm, dynamics, and timbre.
+what is culture,Culture encompasses the social behavior, institutions, and norms found in human societies, as well as the knowledge, beliefs, arts, laws, customs, capabilities, and habits of the individuals in these groups.
+what is society,A society is a group of individuals involved in persistent social interaction, or a large social group sharing the same geographical or social territory, typically subject to the same political authority and dominant cultural expectations.
+what is economy,An economy is the large set of inter-related production and consumption activities that aid in determining how scarce resources are allocated.
+what is a market,A market is a place where buyers and sellers can meet to facilitate the exchange or transaction of goods and services.
+what is money,Money is any item or verifiable record that is generally accepted as payment for goods and services and repayment of debts, such as taxes, in a particular country or socio-economic context.
+what is inflation,Inflation is the decline of purchasing power of a given currency over time, often reflected in a rise in the general price level of goods and services.
+what is a bank,A bank is a financial institution that accepts deposits from the public and creates credit, while also offering financial services like wealth management and currency exchange.
+what is interest,Interest is the monetary charge for the privilege of borrowing money, typically expressed as an annual percentage rate.
+what is a loan,A loan is a sum of money that is borrowed and is expected to be paid back with interest.
+what is credit,Credit is the ability of a customer to obtain goods or services before payment, based on the trust that payment will be made in the future.
+what is debt,Debt is something, usually money, borrowed by one party from another, under the condition that it is to be paid back at a later date, often with interest.
+what is investment,Investment is the action or process of investing money for profit or material result.
+what is a stock,A stock is a type of security that signifies ownership in a corporation and represents a claim on part of the corporation's assets and earnings.
+what is a bond,A bond is a fixed income instrument that represents a loan made by an investor to a borrower, typically corporate or governmental.
+what is a portfolio,A portfolio is a collection of financial investments like stocks, bonds, commodities, cash, and cash equivalents, including mutual funds and ETFs.
+what is risk management,Risk management is the process of identification, analysis, and acceptance or mitigation of uncertainty in investment decisions.
+what is insurance,Insurance is a contract, represented by a policy, in which an individual or entity receives financial protection or reimbursement against losses from an insurance company.
+what is a claim,A claim is a formal request to an insurance company asking for a payment based on the terms of the insurance policy.
+what is a policy,A policy is a contract between the insurer and the insured, detailing the terms and conditions of the insurance coverage.
+what is a premium,A premium is the amount of money that an individual or business pays for an insurance policy.
+what is a deductible,A deductible is the amount you pay out of pocket for expenses before the insurance company will cover the remaining costs.
+what is coverage,Coverage is the amount of protection given through an insurance policy.
+what is a beneficiary,A beneficiary is the person or entity you legally designate to receive the benefits from your financial products, such as insurance policies.
+what is a will,A will is a legal document that expresses a person's wishes as to how their property is to be distributed after their death and as to which person is to manage the property until its final distribution.
+what is estate planning,Estate planning is the process of arranging for the management and disposal of a person's estate during their life and after death.
+what is a trust,A trust is a fiduciary relationship in which one party, known as a trustor, gives another party, the trustee, the right to hold title to property or assets for the benefit of a third party, the beneficiary.
+what is a contract,A contract is a legally binding agreement between two or more parties that creates obligations that are enforceable by law.
+what is law,Law is a system of rules created and enforced through social or governmental institutions to regulate behavior.
+what is justice,Justice is the legal or philosophical theory by which fairness is administered.
+what is a court,A court is any person or institution with authority to judge or adjudicate, often as a government institution with the authority to adjudicate legal disputes.
+what is a judge,A judge is a person who presides over court proceedings, either alone or as part of a panel of judges.
+what is a lawyer,A lawyer is a person who practices law, as an advocate, attorney, attorney at law, barrister, barrister-at-law, bar-at-law, counsel, counselor, counsellor, counselor at law, or solicitor, but not as a paralegal or charter executive secretary.
+what is a lawsuit,A lawsuit is a proceeding by one or more parties against another in a civil court of law.
+what is a plaintiff,A plaintiff is a person who brings a case against another in a court of law.
+what is a defendant,A defendant is an individual, company, or institution sued or accused in a court of law.
+what is a verdict,A verdict is the formal finding of fact made by a jury on matters or questions submitted to the jury by a judge.
+what is a sentence,A sentence is the punishment assigned to a defendant found guilty by a court.
+what is a crime,A crime is an unlawful act punishable by a state or other authority.
+what is a felony,A felony is a serious crime, usually punishable by imprisonment for more than one year or by death.
+what is a misdemeanor,A misdemeanor is a minor wrongdoing, less serious than a felony, typically punishable by a fine or incarceration in a local jail for less than a year.
+what is an arrest,An arrest is the act of apprehending and taking a person into custody, usually because they have been suspected of or witnessed committing a crime.
+what is a warrant,A warrant is a writ issued by a competent officer, usually a judge or magistrate, authorizing an act that would otherwise be illegal.
+what is bail,Bail is the release of an accused person from custody, on the condition that a sum of money is lodged to guarantee their appearance in court.
+what is parole,Parole is the conditional release of a prisoner before the full sentence has been served, on the promise of good behavior.
+what is probation,Probation is a period of supervision over an offender, ordered by the court instead of serving time in prison.
+what is a amendment,An amendment is a formal or official change made to a law, contract, constitution, or other legal document.
+what is the constitution,A constitution is the aggregate of fundamental principles or established precedents that constitute the legal basis of a polity, organisation or other type of entity and commonly determine how that entity is to be governed.
+what is democracy,Democracy is a system of government where the citizens exercise power by voting.
+what is republic,A republic is a form of government in which the country is considered a "public matter", not the private concern or property of the rulers, and where offices of state are elected or appointed, rather than inherited.
+what is monarchy,A monarchy is a form of government with a monarch at the head, such as a king or queen.
+what is dictatorship,A dictatorship is a form of government where a single person or a small group possesses absolute power without effective constitutional limitations.
+what is socialism,Socialism is a political and economic theory of social organization which advocates that the means of production, distribution, and exchange should be owned or regulated by the community as a whole.
+what is communism,Communism is a political and economic ideology that positions itself in opposition to liberal democracy and capitalism, advocating instead for a classless system in which the means of production are owned communally and private property is nonexistent or severely curtailed.
+what is capitalism,Capitalism is an economic system based on the private ownership of the means of production and their operation for profit.
+what is globalization,Globalization is the process by which businesses or other organizations develop international influence or start operating on an international scale.
+what is climate change,Climate change refers to significant changes in global temperature, precipitation, wind patterns and other measures of climate that occur over several decades or longer.
+what is global warming,Global warming is the long-term heating of Earth's climate system observed since the pre-industrial period due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth's atmosphere.
+what is pollution,Pollution is the introduction of contaminants into the natural environment that cause adverse change.
+what is recycling,Recycling is the process of converting waste materials into new materials and objects.
+what is sustainability,Sustainability is the ability to exist constantly. In the 21st century, it refers generally to the capacity for the biosphere and human civilization to coexist.
+what is renewable energy,Renewable energy is energy that is collected from renewable resources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, waves, and geothermal heat.
+what is solar power,Solar power is the conversion of energy from sunlight into electricity, either directly using photovoltaics (PV), indirectly using concentrated solar power, or a combination.
+what is wind power,Wind power is the use of air flow through wind turbines to mechanically power generators for electric power.
+what is hydropower,Hydropower is the use of falling or fast-running water to produce electricity or to power machines.
+what is geothermal energy,Geothermal energy is thermal energy generated and stored in the Earth.
+what is biomass,Biomass is organic material that comes from plants and animals, and it is a renewable source of energy.
+what is a carbon footprint,A carbon footprint is the total amount of greenhouse gases produced to, directly and indirectly, support human activities, usually expressed in equivalent tons of carbon dioxide (CO2).
+what is conservation,Conservation is the preservation or efficient use of resources, or the conservation of various quantities under physical laws.
+what is biodiversity,Biodiversity is the variety and variability of life on Earth.
+what is an ecosystem,An ecosystem is a community of living organisms in conjunction with the nonliving components of their environment, interacting as a system.
+what is a habitat,A habitat is the natural home or environment of an animal, plant, or other organism.
+what is extinction,Extinction is the termination of a kind of organism or of a group of kinds, usually a species.
+what is endangered,An endangered species is a species that is very likely to become extinct in the near future, either worldwide or in a particular political jurisdiction.
+what is a vaccine,A vaccine is a biological preparation that provides active acquired immunity to a particular infectious disease.
+what is a virus,A virus is a submicroscopic infectious agent that replicates only inside the living cells of an organism.
+what is bacteria,Bacteria are a type of biological cell. They constitute a large domain of prokaryotic microorganisms.
+what is a pandemic,A pandemic is an epidemic of disease that has spread across a large region, for instance multiple continents or worldwide.
+what is an epidemic,An epidemic is the rapid spread of disease to a large number of people in a given population within a short period of time.
+what is health,Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.
+what is fitness,Fitness is the condition of being physically fit and healthy.
+what is nutrition,Nutrition is the science that interprets the nutrients and other substances in food in relation to maintenance, growth, reproduction, health and disease of an organism.
+what is a diet,Diet is the sum of food consumed by a person or other organism.
+what is a calorie,A calorie is a unit of energy. In nutrition, calories refer to the energy people get from the food and drink they consume, and the energy they use in physical activity.
+what is protein,Protein is a macronutrient that is essential to building muscle mass. It is commonly found in animal products, though is also present in other sources, such as nuts and legumes.
+what is carbohydrate,Carbohydrates are sugar molecules. Along with proteins and fats, carbohydrates are one of three main nutrients found in foods and drinks.
+what is fat,Fat is a term used to describe a class of macronutrients used in metabolism called triglycerides.
+what is vitamin,A vitamin is an organic molecule that is an essential micronutrient which an organism needs in small quantities for the proper functioning of its metabolism.
+what is mineral,In the context of nutrition, a mineral is a chemical element required as an essential nutrient by organisms to perform functions necessary for life.
+what is exercise,Exercise is any bodily activity that enhances or maintains physical fitness and overall health and wellness.
+what is yoga,Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India.
+what is meditation,Meditation is a practice where an individual uses a technique – such as mindfulness, or focusing the mind on a particular object, thought, or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state.
+what is stress,Stress is a feeling of emotional or physical tension. It can come from any event or thought that makes you feel frustrated, angry, or nervous.
+what is anxiety,Anxiety is an emotion characterized by feelings of tension, worried thoughts and physical changes like increased blood pressure.
+what is depression,Depression is a common and serious medical illness that negatively affects how you feel, the way you think and how you act.
+what is therapy,Therapy is the treatment of mental or psychological disorders by psychological means.
+what is counseling,Counseling is a professional relationship that empowers diverse individuals, families, and groups to accomplish mental health, wellness, education, and career goals.
+what is motivation,Motivation is the process that initiates, guides, and maintains goal-oriented behaviors.
+what is goal setting,Goal setting involves the development of an action plan designed to motivate and guide a person or group toward a goal.
+what is leadership,Leadership is the ability of an individual or a group of individuals to influence and guide followers or other members of an organization.
+what is management,Management is the administration of an organization, whether it is a business, a not-for-profit organization, or government body.
+what is a team,A team is a group of individuals working together to achieve a common goal.
+what is communication,Communication is the act of conveying meanings from one entity or group to another through the use of mutually understood signs, symbols, and semiotic rules.
+what is public speaking,Public speaking is the process or act of performing a speech to a live audience.
+what is presentation,A presentation is the process of presenting a topic to an audience. It is typically a demonstration, introduction, lecture, or speech meant to inform, persuade, inspire, motivate, or to build good will or to present a new idea or product.
+what is marketing,Marketing is the study and management of exchange relationships. It is the business process of creating relationships with and satisfying customers.
+what is advertising,Advertising is a marketing communication that employs an openly sponsored, non-personal message to promote or sell a product, service or idea.
+what is branding,Branding is the process of creating a strong, positive perception of a company, its products or services in the customer's mind by combining such elements as logo, design, mission statement, and a consistent theme throughout all marketing communications.
+what is sales,Sales are activities related to selling or the number of goods sold in a given targeted time period.
+what is customer service,Customer service is the provision of service to customers before, during and after a purchase.
+what is a customer,A customer is the recipient of a good, service, product or an idea obtained from a seller, vendor, or supplier via a financial transaction or exchange for money or some other valuable consideration.
+what is a client,A client is a person or organization that uses the services or advice of a professional or company.
+what is user experience,User experience is a person's emotions and attitudes about using a particular product, system or service.
+what is design,Design is the creation of a plan or convention for the construction of an object, system or measurable human interaction.
+what is innovation,Innovation is the practical implementation of ideas that result in the introduction of new goods or services or improvement in offering goods or services.
+what is technology,Technology is the sum of techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation.
+what is software,Software is a collection of instructions and data that tell a computer how to work.
+what is hardware,Hardware is the physical components of a computer system.
+what is a computer,A computer is a machine that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming.
+what is a smartphone,A smartphone is a portable device that combines mobile telephone and computing functions into one unit.
+what is the internet,The Internet is the global system of interconnected computer networks that uses the Internet protocol suite to communicate between networks and devices.
+what is a website,A website is a collection of related web pages, including multimedia content, typically identified with a common domain name, and published on at least one web server.
+what is a web page,A web page is a hypertext document on the World Wide Web. Web pages are delivered by a web server to the user and displayed in a web browser.
+what is a browser,A web browser is a software application for accessing information on the World Wide Web.
+what is a server,A server is a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network.
+what is a network,A network is a group of two or more computers that are linked together.
+what is cybersecurity,Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.
+what is hacking,Hacking is the unauthorized intrusion into a computer or a network.
+what is a password,A password is a secret word or phrase that must be used to gain admission to something.
+what is encryption,Encryption is the process of converting information or data into a code, especially to prevent unauthorized access.
+what is privacy,Privacy is the ability of an individual or group to seclude themselves, or information about themselves, and thereby express themselves selectively.
+what is a cookie,An HTTP cookie is a small piece of data stored on the user's computer by the web browser while browsing a website.
+what is a algorithm,An algorithm is a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
+what is a program,A program is a set of instructions that a computer follows to perform a task.
+what is coding,Coding is the process of using a programming language to get a computer to behave how you want it to.
+what is programming,Programming is the process of creating a set of instructions that tell a computer how to perform a task.
+what is a developer,A developer is an individual that builds and create software and applications.
+what is engineering,Engineering is the use of scientific principles to design and build machines, structures, and other items, including bridges, tunnels, roads, vehicles, and buildings.
+what is architecture,Architecture is both the process and the product of planning, designing, and constructing buildings or any other structures.
+what is art,Art is a diverse range of human activities involving creative imagination to express technical proficiency, beauty, emotional power, or conceptual ideas.
+what is music,Music is an art form and cultural activity whose medium is sound organized in time.
+what is a song,A song is a musical composition intended to be performed by the human voice.
+what is a artist,An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.
+what is a painting,Painting is the practice of applying paint, pigment, color or other medium to a solid surface.
+what is a sculpture,Sculpture is the branch of the visual arts that operates in three dimensions.
+what is literature,Literature is any collection of written work, but it is also used more narrowly for writings specifically considered to be an art form.
+what is a book,A book is a medium for recording information in the form of writing or images, typically composed of many pages bound together and protected by a cover.
+what is poetry,Poetry is a form of literature that uses aesthetic and rhythmic qualities of language to evoke meanings in addition to, or in place of, the prosaic ostensible meaning.
+what is a novel,A novel is a relatively long work of narrative fiction, normally written in prose form, and which is typically published as a book.
+what is a story,A story is a description of a series of events, either true or fictitious.
+what is a film,A film, also called a movie, motion picture, moving picture, or photoplay, is a series of still images that, when shown on a screen, create the illusion of moving images.
+what is cinema,Cinema is the art and technology of motion-picture photography.
+what is a actor,An actor is a person who portrays a character in a performance.
+what is a director,A film director is a person who directs the making of a film.
+what is photography,Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.
+what is a camera,A camera is an optical instrument used to record images.
+what is travel,Travel is the movement of people between distant geographical locations.
+what is tourism,Tourism is travel for pleasure or business; also the theory and practice of touring, the business of attracting, accommodating, and entertaining tourists, and the business of operating tours.
+what is a vacation,A vacation is a leave of absence from a regular job, or a specific trip or journey, usually for the purpose of recreation or tourism.
+what is a hotel,A hotel is an establishment that provides paid lodging on a short-term basis.
+what is a restaurant,A restaurant is a business that prepares and serves food and drinks to customers.
+what is cuisine,Cuisine is a style of cooking characterized by distinctive ingredients, techniques and dishes, and usually associated with a specific culture or geographic region.
+what is food,Food is any substance consumed to provide nutritional support for an organism.
+what is a recipe,A recipe is a set of instructions that describes how to prepare or make something, especially a culinary dish.
+what is cooking,Cooking is the art, science, and craft of using heat to prepare food for consumption.
+what is baking,Baking is a method of preparing food that uses dry heat, typically in an oven.
+what is a ingredient,An ingredient is a substance that forms part of a mixture.
+what is flavor,Flavor is the sensory impression of a food or other substance, and is determined mainly by the chemical senses of taste and smell.
+what is taste,Taste is the sensation produced when a substance in the mouth reacts chemically with taste receptor cells located on taste buds in the oral cavity.
+what is smell,Smell is the sense that allows us to perceive scents.
+what is sound,Sound is a vibration that propagates as an acoustic wave, through a transmission medium such as a gas, liquid or solid.
+what is light,Light is electromagnetic radiation within a certain portion of the electromagnetic spectrum.
+what is color,Color is the characteristic of visual perception described through color categories, with names such as red, orange, yellow, green, blue, or purple.
+what is energy,Energy is the quantitative property that must be transferred to an object in order to perform work on, or to heat, the object.
+what is matter,Matter is any substance that has mass and takes up space by having volume.
+what is gravity,Gravity is a natural phenomenon by which all things with mass or energy are brought toward one another.
+what is force,In physics, a force is any interaction that, when unopposed, will change the motion of an object.
+what is motion,Motion is the phenomenon in which an object changes its position over time.
+what is time,Time is the continued sequence of existence and events that occurs in an apparently irreversible succession from the past, through the present, into the future.
+what is space,Space is the boundless three-dimensional extent in which objects and events have relative position and direction.
+what is the universe,The universe is all of space and time and their contents, including planets, stars, galaxies, and all other forms of matter and energy.
+what is a star,A star is an astronomical object consisting of a luminous spheroid of plasma held together by its own gravity.
+what is a planet,A planet is an astronomical body orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity.
+what is earth,Earth is the third planet from the Sun and the only astronomical object known to harbor life.
+what is the moon,The Moon is Earth's only natural satellite.
+what is the sun,The Sun is the star at the center of the Solar System.
+what is a galaxy,A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter.
+what is a black hole,A black hole is a region of spacetime where gravity is so strong that nothing—no particles or even electromagnetic radiation such as light—can escape from it.
+what is evolution,Evolution is change in the heritable characteristics of biological populations over successive generations.
+what is natural selection,Natural selection is the differential survival and reproduction of individuals due to differences in phenotype.
+what is genetics,Genetics is the study of genes, genetic variation, and heredity in living organisms.
+what is dna,DNA is a molecule composed of two chains that coil around each other to form a double helix carrying genetic instructions.
+what is a gene,A gene is a sequence of DNA or RNA that codes for a molecule that has a function.
+what is a chromosome,A chromosome is a DNA molecule with part or all of the genetic material of an organism.
+what is a cell,A cell is the basic structural, functional, and biological unit of all known organisms.
+what is a organism,An organism is any individual entity that embodies the properties of life.
+what is a plant,A plant is any organism in the kingdom Plantae.
+what is a animal,An animal is a multicellular, eukaryotic organism in the biological kingdom Animalia.
+what is a human,A human is a member of the species Homo sapiens.
+what is consciousness,Consciousness is the state of being aware of and responsive to one's surroundings.
+what is thought,Thought is an idea or opinion produced by thinking, or occurring suddenly in the mind.
+what is memory,Memory is the faculty of the brain by which data or information is encoded, stored, and retrieved when needed.
+what is learning,Learning is the process of acquiring new understanding, knowledge, behaviors, skills, values, attitudes, and preferences.
+what is knowledge,Knowledge is a familiarity, awareness, or understanding of someone or something, such as facts, information, descriptions, or skills.
+what is wisdom,Wisdom is the ability to think and act using knowledge, experience, understanding, common sense and insight.
+what is truth,Truth is the property of being in accord with fact or reality.
+what is reality,Reality is the sum or aggregate of all that is real or existent within a system, as opposed to that which is only imaginary.
+what is perception,Perception is the organization, identification, and interpretation of sensory information in order to represent and understand the presented information, or the environment.
+what is belief,A belief is an attitude that something is the case, or that some proposition about the world is true.
+what is faith,Faith is confidence or trust in a person, thing, or concept.
+what is religion,Religion is a social-cultural system of designated behaviors and practices, morals, worldviews, texts, sanctified places, prophecies, ethics, or organizations, that relates humanity to supernatural, transcendental, and spiritual elements.
+what is philosophy,Philosophy is the study of general and fundamental questions about existence, knowledge, values, reason, mind, and language.
+what is ethics,Ethics or moral philosophy is a branch of philosophy that involves systematizing, defending, and recommending concepts of right and wrong behavior.
+what is morality,Morality is the differentiation of intentions, decisions and actions between those that are distinguished as proper and those that are improper.
+what is justice,Justice is the principle that people receive that which they deserve.
+what is freedom,Freedom is the power or right to act, speak, or think as one wants without hindrance or restraint.
+what is liberty,Liberty is the state of being free within society from oppressive restrictions imposed by authority on one's way of life, behavior, or political views.
+what is equality,Equality is the state of being equal, especially in status, rights, and opportunities.
+what is fraternity,Fraternity is a group of people sharing a common profession or interests.
+what is democracy,Democracy is a system of government where the citizens exercise power by voting.
+what is rights,A right is a legal or moral entitlement to have or obtain something or to act in a certain way.
+what is duty,A duty is a commitment or expectation to perform some action in general or if certain circumstances arise.
+what is responsibility,Responsibility is the state or fact of having a duty to deal with something or of having control over someone.
+what is honor,Honor is a quality of a person that is of both social teaching and personal ethos, that manifests itself as a code of conduct.
+what is respect,Respect is a positive feeling or action shown towards someone or something considered important.
+what is love,Love encompasses a range of strong and positive emotional and mental states.
+what is hate,Hate is an intense negative emotional response towards certain people, things or ideas.
+what is anger,Anger is an intense emotional state involving a strong uncomfortable and non-cooperative response to a perceived provocation, hurt or threat.
+what is fear,Fear is an emotion induced by perceived danger or threat.
+what is joy,Joy is the emotion of great delight or happiness caused by something exceptionally good or satisfying.
+what is sadness,Sadness is an emotional pain associated with, or characterized by, feelings of disadvantage, loss, despair, grief, helplessness, disappointment and sorrow.
+what is surprise,Surprise is a brief mental and physiological state, a startle response experienced by animals and humans as the result of an unexpected event.
+what is disgust,Disgust is an emotional response of rejection or revulsion to something potentially contagious or something considered offensive, distasteful, or unpleasant.
+what is hope,Hope is an optimistic state of mind that is based on an expectation of positive outcomes with respect to events and circumstances in one's life or the world at large.
+what is despair,Despair is the loss of hope.
+what is courage,Courage is the choice and willingness to confront agony, pain, danger, uncertainty, or intimidation.
+what is cowardice,Cowardice is a trait wherein fear and excess self-concern override doing or saying what is right, good and of help to others or oneself in a time of need.
+what is patience,Patience is the ability to endure difficult circumstances.
+what is impatience,Impatience is a lack of patience.
+what is kindness,Kindness is a behavior marked by ethical characteristics, a pleasant disposition, and concern and consideration for others.
+what is cruelty,Cruelty is pleasure in inflicting suffering or inaction towards another's suffering.
+what is generosity,Generosity is the virtue of being liberal in giving.
+what is greed,Greed is an uncontrolled longing for increase in the acquisition or consumption of material gain.
+what is humility,Humility is the quality of being humble.
+what is pride,Pride is a feeling of satisfaction derived from one's own achievements.
+what is arrogance,Arrogance is an overbearing pride evidenced by a superior manner toward inferiors.
+what is modesty,Modesty is a mode of dress and deportment intended to avoid encouraging sexual attraction in others.
+what is shame,Shame is an unpleasant self-conscious emotion typically associated with a negative evaluation of the self.
+what is guilt,Guilt is a cognitive or an emotional experience that occurs when a person believes or realizes they have compromised their own standards of conduct.
+what is regret,Regret is a negative conscious and emotional reaction to personal past acts and behaviors.
+what is forgiveness,Forgiveness is the intentional and voluntary process by which a victim undergoes a change in feelings and attitude regarding an offense.
+what is revenge,Revenge is committing a harmful action against a person or group in response to a grievance.
+what is peace,Peace is a concept of societal friendship and harmony in the absence of hostility and violence.
+what is war,War is intense armed conflict between states, governments, societies, or paramilitary groups.
+what is conflict,Conflict is a serious disagreement or argument.
+what is violence,Violence is the use of physical force so as to injure, abuse, damage, or destroy.
+what is power,Power is the capacity to influence the behavior of others or the course of events.
+what is authority,Authority is the legitimate power which one person or group possesses and practices over another.
+what is influence,Influence is the capacity to have an effect on the character, development, or behavior of someone or something.
+what is control,Control is the power to influence or direct people's behavior or the course of events.
+what is domination,Domination is the exercise of control or influence over someone or something.
+what is submission,Submission is the action of accepting or yielding to a superior force or to the will or authority of another person.
+what is independence,Independence is a condition of a person, nation, country, or state in which its residents and population, or some portion thereof, exercise self-government, and usually sovereignty, over its territory.
+what is dependence,Dependence is the state of relying on or being controlled by someone or something else.
+what is interdependence,Interdependence is the mutual reliance between two or more groups.
+what is cooperation,Cooperation is the process of groups of organisms working or acting together for common, mutual, or some underlying benefit.
+what is competition,Competition is a rivalry where two or more parties strive for a common goal which cannot be shared.
+what is winning,Winning is the act of being successful in a competition or contest.
+what is losing,Losing is failing to win a competition or contest.
+what is success,Success is the accomplishment of an aim or purpose.
+what is failure,Failure is the state or condition of not meeting a desirable or intended objective.
+what is achievement,Achievement is a thing done successfully, typically by effort, courage, or skill.
+what is goal,A goal is an idea of the future or desired result that a person or a group of people envision, plan and commit to achieve.
+what is dream,A dream is a succession of images, ideas, emotions, and sensations that usually occur involuntarily in the mind during certain stages of sleep.
+what is ambition,Ambition is a strong desire to do or to achieve something, typically requiring determination and hard work.
+what as a car,A car is a wheeled motor vehicle used for transportation.
+what is a bus,A bus is a road vehicle designed to carry many passengers.
+what is a train,A train is a form of rail transport consisting of a series of connected vehicles that generally run along a railroad track to transport cargo or passengers.
+what is a plane,A plane is a powered, fixed-wing aircraft that is propelled forward by thrust from a jet engine, propeller or rocket engine.
+what is a boat,A boat is a watercraft of a large range of types and sizes.
+what is a ship,A ship is a large watercraft that travels the world's oceans and other sufficiently deep waterways.
+what is a bicycle,A bicycle is a human-powered or motor-powered, pedal-driven, single-track vehicle, having two wheels attached to a frame, one behind the other.
+what is a motorcycle,A motorcycle is a two- or three-wheeled motor vehicle.
+what is a truck,A truck is a motor vehicle designed to transport cargo.
+what is a road,A road is a wide way leading from one place to another, especially one with a specially prepared surface which vehicles can use.
+what is a highway,A highway is a main road, especially one connecting major towns or cities.
+what is a bridge,A bridge is a structure built to span a physical obstacle without closing the way underneath.
+what is a tunnel,A tunnel is an underground or underwater passage.
+what is a building,A building is a structure with a roof and walls standing more or less permanently in one place.
+what is a house,A house is a building that functions as a home.
+what is a apartment,An apartment is a self-contained housing unit that occupies part of a building.
+what is a office,An office is a room, set of rooms, or building where people work.
+what is a school,A school is an institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers.
+what is a university,A university is an institution of higher education and research which awards academic degrees in various academic disciplines.
+what is a college,A college is an educational institution or a constituent part of one.
+what is a teacher,A teacher is a person who helps students to acquire knowledge, competence or virtue.
+what is a student,A student is a person enrolled in a school or other educational institution.
+what is a professor,A professor is a senior teacher, lecturer and researcher, usually in a college or university.
+what is a class,A class is a course of instruction.
+what is a lesson,A lesson is a structured period of time where learning is intended to occur.
+what is a test,A test is an assessment intended to measure the test-taker's knowledge, skill, aptitude, physical fitness, or classification in many other topics.
+what is a exam,An exam is a formal test of a person's knowledge or proficiency in a particular subject or skill.
+what is a grade,A grade is a standardized measurement of academic achievement.
+what is a degree,A degree is any of a wide range of status levels conferred by institutions of higher education.
+what is a diploma,A diploma is a certificate or deed issued by an educational institution.
+what is a certificate,A certificate is a document that confirms certain facts.
+what is a license,A license is an official permission or permit to do, use, or own something.
+what is a permit,A permit is an official document giving someone authorization to do something.
+what is a passport,A passport is a travel document, usually issued by a country's government, that certifies the identity and nationality of its holder.
+what is a visa,A visa is a conditional authorization granted by a territory to a foreigner, allowing them to enter, remain within, or to leave that territory.
+what is a citizen,A citizen is a person recognized under the custom or law of a sovereign state as a legal member of that state.
+what is a country,A country is a distinct territorial body or political entity.
+what is a nation,A nation is a stable community of people, formed on the basis of a common language, territory, economic life, ethnicity or psychological make-up manifested in a common culture.
+what is a state,A state is a political organization with a centralized government that maintains a monopoly on the legitimate use of force within a certain geographical territory.
+what is a government,Government is the system or group of people governing an organized community, generally a state.
+what is politics,Politics is the set of activities that are associated with making decisions in groups, or other forms of power relations between individuals.
+what is a election,An election is a formal group decision-making process by which a population chooses an individual or multiple individuals to hold public office.
+what is a vote,A vote is a formal expression of an individual's choice for or against a candidate, a political party, or a policy proposal.
+what is a campaign,A campaign is any series of actions or events that are meant to achieve a particular result.
+what is a party,A political party is an organization that coordinates candidates to compete in a particular country's elections.
+what is a leader,A leader is a person who leads or commands a group, organization, or country.
+what is a follower,A follower is a person who supports and admires a particular person or set of ideas.
+what is a hero,A hero is a person who is admired for their courage, outstanding achievements, or noble qualities.
+what is a villain,A villain is a character whose evil actions or motives are important to the plot.
+what is a role model,A role model is a person looked to by others as an example to be imitated.
+what is a idol,An idol is an image or representation of a god used as an object of worship.
+what is a celebrity,A celebrity is a famous person.
+what is fame,Fame is the state of being known or talked about by many people.
+what is fortune,Fortune is chance or luck as an external, arbitrary force affecting human affairs.
+what is wealth,Wealth is the abundance of valuable financial assets or physical possessions which can be converted into a form that can be used for transactions.
+what is poverty,Poverty is the state of having little or no money, goods, or means of support.
+what is charity,Charity is the voluntary giving of help, typically in the form of money, to those in need.
+what is donation,A donation is a gift for charity, humanitarian aid, or to benefit a cause.
+what is volunteer,Volunteering is generally considered an altruistic activity where an individual or group provides services for no financial gain.
+what is community,A community is a social unit with commonality such as norms, religion, values, customs, or identity.
+what is society,Society is a group of individuals involved in persistent social interaction.
+what is culture,Culture is the social behavior and norms found in human societies.
+what is tradition,A tradition is a belief or behavior passed down within a group or society with symbolic meaning or special significance with origins in the past.
+what is custom,A custom is a traditional and widely accepted way of behaving or doing something that is specific to a particular society, place, or time.
+what is habit,A habit is a routine of behavior that is repeated regularly and tends to occur subconsciously.
+what is routine,A routine is a sequence of actions regularly followed.
+what is schedule,A schedule is a plan for carrying out a process or procedure, giving lists of intended events and times.
+what is time management,Time management is the process of planning and exercising conscious control of time spent on specific activities.
+what is organization,An organization is an entity comprising multiple people, such as an institution or an association, that has a particular purpose.
+what is system,A system is a group of interacting or interrelated elements that act according to a set of rules to form a unified whole.
+what is structure,A structure is an arrangement and organization of interrelated elements in a material object or system.
+what is function,A function is the purpose for which something is designed or exists.
+what is process,A process is a series of actions or steps taken in order to achieve a particular end.
+what is method,A method is a particular procedure for accomplishing or approaching something.
+what is technique,A technique is a way of carrying out a particular task.
+what is strategy,Strategy is a high-level plan to achieve one or more goals under conditions of uncertainty.
+what is plan,A plan is typically any diagram or list of steps with timing and resources, used to achieve an objective.
+what is project,A project is an individual or collaborative enterprise that is carefully planned to achieve a particular aim.
+what is task,A task is a piece of work to be done or undertaken.
+what is job,A job is a paid position of regular employment.
+what is work,Work is activity involving mental or physical effort done in order to achieve a purpose or result.
+what is career,A career is an individual's journey through learning, work and other aspects of life.
+what is profession,A profession is a paid occupation, especially one that involves prolonged training and a formal qualification.
+what is business,Business is the practice of making one's living by engaging in commerce.
+what is company,A company is a legal entity formed by a group of individuals to engage in and operate a business.
+what is corporation,A corporation is a company or group of people authorized to act as a single entity and recognized as such in law.
+what is industry,Industry is the production of goods or related services within an economy.
+what is commerce,Commerce is the conduct of trade among economic agents.
+what is trade,Trade is the basic economic concept involving buying and selling of goods and services.
+what is market,A market is a place where parties can gather to facilitate the exchange of goods and services.
+what is economy,An economy is an area of the production, distribution and trade, as well as consumption of goods and services by different agents.
+what is money,Money is any item or verifiable record that is generally accepted as payment for goods and services.
+what is currency,Currency is a system of money in general use in a particular country.
+what is bank,A bank is a financial institution that accepts deposits from the public and creates credit.
+what is account,An account is a record of financial transactions for an asset or individual.
+what is transaction,A transaction is an agreement between a buyer and a seller to exchange goods, services, or financial instruments.
+what is payment,Payment is the transfer of money or goods and services in exchange for a product or service.
+what is invoice,An invoice is a time-stamped commercial document that itemizes and records a transaction between a buyer and a seller.
+what is receipt,A receipt is a document acknowledging that a person has received money or property in payment following a sale or other transfer of goods or provision of a service.
+what is budget,A budget is a financial plan for a defined period.
+what is expense,An expense is the cost of operations that a company incurs to generate revenue.
+what is income,Income is the consumption and saving opportunity gained by an entity within a specified timeframe.
+what is profit,Profit is the financial benefit realized when revenue generated from a business activity exceeds the expenses, costs, and taxes involved.
+what is loss,Loss is the amount a company's expenses exceed its revenues.
+what is tax,A tax is a compulsory financial charge or some other type of levy imposed upon a taxpayer by a governmental organization.
+what is debt,Debt is an amount of money borrowed by one party from another.
+what is credit,Credit is the trust which allows one party to provide money or resources to another party.
+what is loan,A loan is the lending of money by one or more individuals, organizations, or other entities to other individuals, organizations.
+what is interest,Interest is the charge for the privilege of borrowing money.
+what is investment,Investment is the dedication of money to purchase of an asset to attain an increase in value over a period of time.
+what is stock,A stock is a type of security that signifies ownership in a corporation.
+what is bond,A bond is a fixed income instrument that represents a loan made by an investor to a borrower.
+what is share,A share is a unit of ownership in a corporation or financial asset.
+what is dividend,A dividend is the distribution of some of a company's earnings to a class of its shareholders.
+what is portfolio,A portfolio is a collection of financial investments like stocks, bonds, commodities, cash, and cash equivalents.
+what is risk,Risk is the possibility of something bad happening.
+what is return,Return is the gain or loss of an investment over a specified period.
+what is asset,An asset is a resource with economic value that an individual, corporation, or country owns or controls.
+what is liability,A liability is something a person or company owes, usually a sum of money.
+what is equity,Equity is the value of an asset after liabilities have been deducted.
+what is balance sheet,A balance sheet is a financial statement that reports a company's assets, liabilities and shareholders' equity.
+what is income statement,An income statement is one of the financial statements of a company and shows the company's revenues and expenses.
+what is cash flow,Cash flow is the net amount of cash and cash-equivalents being transferred into and out of a business.
+what is financial statement,A financial statement is a formal record of the financial activities and position of a business, person, or other entity.
+what is audit,An audit is an independent examination of financial information of any entity.
+what is accountant,An accountant is a practitioner of accounting or accountancy.
+what is finance,Finance is the study and discipline of money, currency and capital assets.
+what is economics,Economics is the social science that studies how people interact with value; in particular, the production, distribution, and consumption of goods and services.
+what is supply,Supply is a fundamental economic concept that describes the total amount of a specific good or service that is available to consumers.
+what is demand,Demand is an economic principle referring to a consumer's desire to purchase goods and services.
+what is price,Price is the quantity of payment or compensation given by one party to another in return for one unit of goods or services.
+what is value,Value is the monetary, material, or assessed worth of an asset, good, or service.
+what is cost,Cost is the value of money that has been used up to produce something.
+what is worth,Worth is the value of something measured by its qualities or by the esteem in which it is held.
+what is quality,Quality is the standard of something as measured against other things of a similar kind.
+what is quantity,Quantity is the amount or number of a material or abstract thing.
+what is measure,Measure is the quantification of attributes of an object or event.
+what is unit,A unit of measurement is a definite magnitude of a quantity, defined and adopted by convention.
+what is scale,Scale is the ratio of the distance on a map to the corresponding distance on the ground.
+what is size,Size is the magnitude or dimensions of a thing.
+what is weight,Weight is the force exerted on a body by gravity.
+what is height,Height is the measure of vertical distance.
+what is length,Length is a measure of distance.
+what is width,Width is the measurement or extent of something from side to side.
+what is depth,Depth is the distance from the top or surface to the bottom of something.
+what is volume,Volume is the quantity of three-dimensional space enclosed by a closed surface.
+what is area,Area is the quantity that expresses the extent of a two-dimensional figure or shape.
+what is speed,Speed is the rate at which someone or something is able to move or operate.
+what is velocity,Velocity is the speed of something in a given direction.
+what is acceleration,Acceleration is the rate of change of velocity per unit of time.
+what is momentum,Momentum is the quantity of motion of a moving body.
+what is force,In physics, a force is any interaction that, when unopposed, will change the motion of an object.
+what is energy,Energy is the quantitative property that must be transferred to an object to perform work on, or to heat, the object.
+what is power,Power is the amount of energy transferred or converted per unit time.
+what is work,In physics, work is the energy transferred to or from an object via the application of force along a displacement.
+what is pressure,Pressure is the force applied perpendicular to the surface of an object per unit area.
+what is temperature,Temperature is a physical quantity that expresses hot and cold.
+what is heat,Heat is the transfer of kinetic energy from one medium or object to another.
+what is cold,Cold is the presence of low temperature.
+what is weather,Weather is the state of the atmosphere, describing for example the degree to which it is hot or cold, wet or dry, calm or stormy, clear or cloudy.
+what is climate,Climate is the long-term pattern of weather in a particular area.
+what is season,A season is a division of the year marked by changes in weather, ecology, and amount of daylight.
+what is spring,Spring is one of the four temperate seasons, succeeding winter and preceding summer.
+what is summer,Summer is the hottest of the four temperate seasons, falling between spring and autumn.
+what is autumn,Autumn is one of the four temperate seasons, marking the transition from summer to winter.
+what is winter,Winter is the coldest season of the year in polar and temperate zones.
+what is day,A day is approximately the period during which the Earth completes one rotation around its axis.
+what is night,Night is the period of ambient darkness from sunset to sunrise.
+what is week,A week is a time unit equal to seven days.
+what is month,A month is a unit of time, used with calendars, that is approximately as long as a natural orbital period of the Moon.
+what is year,A year is the orbital period of Earth moving in its orbit around the Sun.
+what is decade,A decade is a period of 10 years.
+what is century,A century is a period of 100 years.
+what is millennium,A millennium is a period of 1000 years.
+what is time,Time is the continued sequence of existence and events.
+what is past,The past is the set of all events that occurred before a given point in time.
+what is present,The present is the time associated with the events perceived directly and in the first time.
+what is future,The future is the time after the present.
+what is history,History is the study of the past.
+what is prehistory,Prehistory is the period of time before written records.
+what is ancient,Ancient history is the aggregate of past events from the beginning of writing and recorded human history.
+what is medieval,The Middle Ages is the period of European history from the fall of the Roman Empire to the fall of Constantinople.
+what is modern,Modern history is the history of the world beginning after the Middle Ages.
+what is contemporary,Contemporary history is the history of the recent past.
+what is age,An age is a distinct period of history.
+what is era,An era is a span of time defined for the purposes of chronology or historiography.
+what is period,A period is a major interval of time.
+what is epoch,An epoch is a particular period of time in history or a person's life.
+what is generation,A generation is all of the people born and living at about the same time.
+what is life,Life is a characteristic that distinguishes physical entities that have biological processes.
+what is death,Death is the permanent cessation of all biological functions that sustain a living organism.
+what is birth,Birth is the act or process of bearing or bringing forth offspring.
+what is growth,Growth refers to a positive change in size, often over a period of time.
+what is development,Development is the process of developing or being developed.
+what is change,Change is the act or instance of making or becoming different.
+what is progress,Progress is movement towards a refined, improved, or otherwise desired state.
+what as a car,A car is a wheeled motor vehicle used for transportation.
+what is a bus,A bus is a road vehicle designed to carry many passengers.
+what is a train,A train is a form of rail transport consisting of a series of connected vehicles that generally run along a railroad track to transport cargo or passengers.
+what is a plane,A plane is a powered, fixed-wing aircraft that is propelled forward by thrust from a jet engine, propeller or rocket engine.
+what is a boat,A boat is a watercraft of a large range of types and sizes.
+what is a ship,A ship is a large watercraft that travels the world's oceans and other sufficiently deep waterways.
+what is a bicycle,A bicycle is a human-powered or motor-powered, pedal-driven, single-track vehicle, having two wheels attached to a frame, one behind the other.
+what is a motorcycle,A motorcycle is a two- or three-wheeled motor vehicle.
+what is a truck,A truck is a motor vehicle designed to transport cargo.
+what is a road,A road is a wide way leading from one place to another, especially one with a specially prepared surface which vehicles can use.
+what is a highway,A highway is a main road, especially one connecting major towns or cities.
+what is a bridge,A bridge is a structure built to span a physical obstacle without closing the way underneath.
+what is a tunnel,A tunnel is an underground or underwater passage.
+what is a building,A building is a structure with a roof and walls standing more or less permanently in one place.
+what is a house,A house is a building that functions as a home.
+what is a apartment,An apartment is a self-contained housing unit that occupies part of a building.
+what is a office,An office is a room, set of rooms, or building where people work.
+what is a school,A school is an institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers.
+what is a university,A university is an institution of higher education and research which awards academic degrees in various academic disciplines.
+what is a college,A college is an educational institution or a constituent part of one.
+what is a teacher,A teacher is a person who helps students to acquire knowledge, competence or virtue.
+what is a student,A student is a person enrolled in a school or other educational institution.
+what is a professor,A professor is a senior teacher, lecturer and researcher, usually in a college or university.
+what is a class,A class is a course of instruction.
+what is a lesson,A lesson is a structured period of time where learning is intended to occur.
+what is a test,A test is an assessment intended to measure the test-taker's knowledge, skill, aptitude, physical fitness, or classification in many other topics.
+what is a exam,An exam is a formal test of a person's knowledge or proficiency in a particular subject or skill.
+what is a grade,A grade is a standardized measurement of academic achievement.
+what is a degree,A degree is any of a wide range of status levels conferred by institutions of higher education.
+what is a diploma,A diploma is a certificate or deed issued by an educational institution.
+what is a certificate,A certificate is a document that confirms certain facts.
+what is a license,A license is an official permission or permit to do, use, or own something.
+what is a permit,A permit is an official document giving someone authorization to do something.
+what is a passport,A passport is a travel document, usually issued by a country's government, that certifies the identity and nationality of its holder.
+what is a visa,A visa is a conditional authorization granted by a territory to a foreigner, allowing them to enter, remain within, or to leave that territory.
+what is a citizen,A citizen is a person recognized under the custom or law of a sovereign state as a legal member of that state.
+what is a country,A country is a distinct territorial body or political entity.
+what is a nation,A nation is a stable community of people, formed on the basis of a common language, territory, economic life, ethnicity or psychological make-up manifested in a common culture.
+what is a state,A state is a political organization with a centralized government that maintains a monopoly on the legitimate use of force within a certain geographical territory.
+what is a government,Government is the system or group of people governing an organized community, generally a state.
+what is politics,Politics is the set of activities that are associated with making decisions in groups, or other forms of power relations between individuals.
+what is a election,An election is a formal group decision-making process by which a population chooses an individual or multiple individuals to hold public office.
+what is a vote,A vote is a formal expression of an individual's choice for or against a candidate, a political party, or a policy proposal.
+what is a campaign,A campaign is any series of actions or events that are meant to achieve a particular result.
+what is a party,A political party is an organization that coordinates candidates to compete in a particular country's elections.
+what is a leader,A leader is a person who leads or commands a group, organization, or country.
+what is a follower,A follower is a person who supports and admires a particular person or set of ideas.
+what is a hero,A hero is a person who is admired for their courage, outstanding achievements, or noble qualities.
+what is a villain,A villain is a character whose evil actions or motives are important to the plot.
+what is a role model,A role model is a person looked to by others as an example to be imitated.
+what is a idol,An idol is an image or representation of a god used as an object of worship.
+what is a celebrity,A celebrity is a famous person.
+what is fame,Fame is the state of being known or talked about by many people.
+what is fortune,Fortune is chance or luck as an external, arbitrary force affecting human affairs.
+what is wealth,Wealth is the abundance of valuable financial assets or physical possessions which can be converted into a form that can be used for transactions.
+what is poverty,Poverty is the state of having little or no money, goods, or means of support.
+what is charity,Charity is the voluntary giving of help, typically in the form of money, to those in need.
+what is donation,A donation is a gift for charity, humanitarian aid, or to benefit a cause.
+what is volunteer,Volunteering is generally considered an altruistic activity where an individual or group provides services for no financial gain.
+what is community,A community is a social unit with commonality such as norms, religion, values, customs, or identity.
+what is society,Society is a group of individuals involved in persistent social interaction.
+what is culture,Culture is the social behavior and norms found in human societies.
+what is tradition,A tradition is a belief or behavior passed down within a group or society with symbolic meaning or special significance with origins in the past.
+what is custom,A custom is a traditional and widely accepted way of behaving or doing something that is specific to a particular society, place, or time.
+what is habit,A habit is a routine of behavior that is repeated regularly and tends to occur subconsciously.
+what is routine,A routine is a sequence of actions regularly followed.
+what is schedule,A schedule is a plan for carrying out a process or procedure, giving lists of intended events and times.
+what is time management,Time management is the process of planning and exercising conscious control of time spent on specific activities.
+what is organization,An organization is an entity comprising multiple people, such as an institution or an association, that has a particular purpose.
+what is system,A system is a group of interacting or interrelated elements that act according to a set of rules to form a unified whole.
+what is structure,A structure is an arrangement and organization of interrelated elements in a material object or system.
+what is function,A function is the purpose for which something is designed or exists.
+what is process,A process is a series of actions or steps taken in order to achieve a particular end.
+what is method,A method is a particular procedure for accomplishing or approaching something.
+what is technique,A technique is a way of carrying out a particular task.
+what is strategy,Strategy is a high-level plan to achieve one or more goals under conditions of uncertainty.
+what is plan,A plan is typically any diagram or list of steps with timing and resources, used to achieve an objective.
+what is project,A project is an individual or collaborative enterprise that is carefully planned to achieve a particular aim.
+what is task,A task is a piece of work to be done or undertaken.
+what is job,A job is a paid position of regular employment.
+what is work,Work is activity involving mental or physical effort done in order to achieve a purpose or result.
+what is career,A career is an individual's journey through learning, work and other aspects of life.
+what is profession,A profession is a paid occupation, especially one that involves prolonged training and a formal qualification.
+what is business,Business is the practice of making one's living by engaging in commerce.
+what is company,A company is a legal entity formed by a group of individuals to engage in and operate a business.
+what is corporation,A corporation is a company or group of people authorized to act as a single entity and recognized as such in law.
+what is industry,Industry is the production of goods or related services within an economy.
+what is commerce,Commerce is the conduct of trade among economic agents.
+what is trade,Trade is the basic economic concept involving buying and selling of goods and services.
+what is market,A market is a place where parties can gather to facilitate the exchange of goods and services.
+what is economy,An economy is an area of the production, distribution and trade, as well as consumption of goods and services by different agents.
+what is money,Money is any item or verifiable record that is generally accepted as payment for goods and services.
+what is currency,Currency is a system of money in general use in a particular country.
+what is bank,A bank is a financial institution that accepts deposits from the public and creates credit.
+what is account,An account is a record of financial transactions for an asset or individual.
+what is transaction,A transaction is an agreement between a buyer and a seller to exchange goods, services, or financial instruments.
+what is payment,Payment is the transfer of money or goods and services in exchange for a product or service.
+what is invoice,An invoice is a time-stamped commercial document that itemizes and records a transaction between a buyer and a seller.
+what is receipt,A receipt is a document acknowledging that a person has received money or property in payment following a sale or other transfer of goods or provision of a service.
+what is budget,A budget is a financial plan for a defined period.
+what is expense,An expense is the cost of operations that a company incurs to generate revenue.
+what is income,Income is the consumption and saving opportunity gained by an entity within a specified timeframe.
+what is profit,Profit is the financial benefit realized when revenue generated from a business activity exceeds the expenses, costs, and taxes involved.
+what is loss,Loss is the amount a company's expenses exceed its revenues.
+what is tax,A tax is a compulsory financial charge or some other type of levy imposed upon a taxpayer by a governmental organization.
+what is debt,Debt is an amount of money borrowed by one party from another.
+what is credit,Credit is the trust which allows one party to provide money or resources to another party.
+what is loan,A loan is the lending of money by one or more individuals, organizations, or other entities to other individuals, organizations.
+what is interest,Interest is the charge for the privilege of borrowing money.
+what is investment,Investment is the dedication of money to purchase of an asset to attain an increase in value over a period of time.
+what is stock,A stock is a type of security that signifies ownership in a corporation.
+what is bond,A bond is a fixed income instrument that represents a loan made by an investor to a borrower.
+what is share,A share is a unit of ownership in a corporation or financial asset.
+what is dividend,A dividend is the distribution of some of a company's earnings to a class of its shareholders.
+what is portfolio,A portfolio is a collection of financial investments like stocks, bonds, commodities, cash, and cash equivalents.
+what is risk,Risk is the possibility of something bad happening.
+what is return,Return is the gain or loss of an investment over a specified period.
+what is asset,An asset is a resource with economic value that an individual, corporation, or country owns or controls.
+what is liability,A liability is something a person or company owes, usually a sum of money.
+what is equity,Equity is the value of an asset after liabilities have been deducted.
+what is balance sheet,A balance sheet is a financial statement that reports a company's assets, liabilities and shareholders' equity.
+what is income statement,An income statement is one of the financial statements of a company and shows the company's revenues and expenses.
+what is cash flow,Cash flow is the net amount of cash and cash-equivalents being transferred into and out of a business.
+what is financial statement,A financial statement is a formal record of the financial activities and position of a business, person, or other entity.
+what is audit,An audit is an independent examination of financial information of any entity.
+what is accountant,An accountant is a practitioner of accounting or accountancy.
+what is finance,Finance is the study and discipline of money, currency and capital assets.
+what is economics,Economics is the social science that studies how people interact with value; in particular, the production, distribution, and consumption of goods and services.
+what is supply,Supply is a fundamental economic concept that describes the total amount of a specific good or service that is available to consumers.
+what is demand,Demand is an economic principle referring to a consumer's desire to purchase goods and services.
+what is price,Price is the quantity of payment or compensation given by one party to another in return for one unit of goods or services.
+what is value,Value is the monetary, material, or assessed worth of an asset, good, or service.
+what is cost,Cost is the value of money that has been used up to produce something.
+what is worth,Worth is the value of something measured by its qualities or by the esteem in which it is held.
+what is quality,Quality is the standard of something as measured against other things of a similar kind.
+what is quantity,Quantity is the amount or number of a material or abstract thing.
+what is measure,Measure is the quantification of attributes of an object or event.
+what is unit,A unit of measurement is a definite magnitude of a quantity, defined and adopted by convention.
+what is scale,Scale is the ratio of the distance on a map to the corresponding distance on the ground.
+what is size,Size is the magnitude or dimensions of a thing.
+what is weight,Weight is the force exerted on a body by gravity.
+what is height,Height is the measure of vertical distance.
+what is length,Length is a measure of distance.
+what is width,Width is the measurement or extent of something from side to side.
+what is depth,Depth is the distance from the top or surface to the bottom of something.
+what is volume,Volume is the quantity of three-dimensional space enclosed by a closed surface.
+what is area,Area is the quantity that expresses the extent of a two-dimensional figure or shape.
+what is speed,Speed is the rate at which someone or something is able to move or operate.
+what is velocity,Velocity is the speed of something in a given direction.
+what is acceleration,Acceleration is the rate of change of velocity per unit of time.
+what is momentum,Momentum is the quantity of motion of a moving body.
+what is force,In physics, a force is any interaction that, when unopposed, will change the motion of an object.
+what is energy,Energy is the quantitative property that must be transferred to an object to perform work on, or to heat, the object.
+what is power,Power is the amount of energy transferred or converted per unit time.
+what is work,In physics, work is the energy transferred to or from an object via the application of force along a displacement.
+what is pressure,Pressure is the force applied perpendicular to the surface of an object per unit area.
+what is temperature,Temperature is a physical quantity that expresses hot and cold.
+what is heat,Heat is the transfer of kinetic energy from one medium or object to another.
+what is cold,Cold is the presence of low temperature.
+what is weather,Weather is the state of the atmosphere, describing for example the degree to which it is hot or cold, wet or dry, calm or stormy, clear or cloudy.
+what is climate,Climate is the long-term pattern of weather in a particular area.       
